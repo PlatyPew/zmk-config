@@ -79,6 +79,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        smart_shift: smart_shift {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SMART_SHIFT";
+            bindings = <&sk LSHIFT>, <&caps_word>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -345,10 +354,10 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&kp TAB         &kp Q        &kp W        &kp E         &kp R          &kp T                              &kp UP                 &kp Y        &kp U          &kp I         &kp O        &kp P                &kp BSPC
-&kp LEFT_SHIFT  &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHIFT F  &kp G                    &kp LEFT  &kp RETURN  &kp RIGHT  &kp H        &hmr RSHIFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMICOLON  &kp SQT
-&kp LCTRL       &kp Z        &kp X        &kp C         &kp V          &kp B      &kp C_MUTE              &kp DOWN               &kp N        &kp M          &kp COMMA     &kp DOT      &kp FSLH             &kp ESC
-                                          &kp LGUI      &mo 1          &kp SPACE                                                 &lt 3 ENTER  &mo 2          &kp RALT
+&kp TAB       &kp Q        &kp W        &kp E         &kp R          &kp T                              &kp UP                 &kp Y        &kp U          &kp I         &kp O        &kp P                &kp BSPC
+&smart_shift  &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHIFT F  &kp G                    &kp LEFT  &kp RETURN  &kp RIGHT  &kp H        &hmr RSHIFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMICOLON  &kp SQT
+&kp LCTRL     &kp Z        &kp X        &kp C         &kp V          &kp B      &kp C_MUTE              &kp DOWN               &kp N        &kp M          &kp COMMA     &kp DOT      &kp FSLH             &kp ESC
+                                        &kp LGUI      &mo 1          &kp SPACE                                                 &lt 3 ENTER  &mo 2          &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
