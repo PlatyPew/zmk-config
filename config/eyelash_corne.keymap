@@ -25,6 +25,8 @@
     quick-tap-ms = <175>;
 };
 
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE SPACE>; };
+
 / {
     behaviors {
         click: click {
@@ -81,12 +83,12 @@
         };
 
         smart_shift: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             label = "SMART_SHIFT";
+            #binding-cells = <0>;
             bindings = <&sk LSHIFT>, <&caps_word>;
 
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            tapping-term-ms = <200>;
         };
     };
 
