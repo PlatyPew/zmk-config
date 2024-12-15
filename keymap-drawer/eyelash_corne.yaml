@@ -198,59 +198,88 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
+  l: [BASE, NUMSYM]
 - p: [3, 4]
   k: RETURN
+  l: [BASE, NUMSYM]
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
+  l: [BASE, NUMSYM]
 - p: [30, 32]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  l: [BASE, NUMSYM]
 - p: [30, 31]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  l: [BASE, NUMSYM]
 - p: [31, 32]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  l: [BASE, NUMSYM]
 - p: [8, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [BASE, NUMSYM]
 - p: [9, 10]
   k: $$mdi:backspace-reverse-outline$$
+  l: [BASE, NUMSYM]
 - p: [23, 24]
   k: {t: (, s: <}
+  l: [BASE, NUMSYM]
 - p: [24, 25]
   k: {t: ), s: '>'}
+  l: [BASE, NUMSYM]
 - p: [37, 38]
   k: {t: '[', s: '{'}
+  l: [BASE, NUMSYM]
 - p: [38, 39]
   k: {t: ']', s: '}'}
+  l: [BASE, NUMSYM]
 - p: [1, 14]
   k: '!'
+  l: [BASE, NUMSYM]
 - p: [2, 15]
   k: '@'
+  l: [BASE, NUMSYM]
 - p: [3, 16]
   k: '#'
+  l: [BASE, NUMSYM]
 - p: [4, 17]
   k: $
+  l: [BASE, NUMSYM]
 - p: [5, 18]
   k: '%'
+  l: [BASE, NUMSYM]
 - p: [15, 30]
   k: {t: '`', s: '~'}
+  l: [BASE, NUMSYM]
 - p: [16, 31]
   k: {t: \, s: '|'}
+  l: [BASE, NUMSYM]
 - p: [17, 32]
   k: {t: '=', s: +}
+  l: [BASE, NUMSYM]
 - p: [18, 33]
   k: '~'
+  l: [BASE, NUMSYM]
 - p: [7, 22]
   k: ^
+  l: [BASE, NUMSYM]
 - p: [8, 23]
   k: +
+  l: [BASE, NUMSYM]
 - p: [9, 24]
   k: '*'
+  l: [BASE, NUMSYM]
 - p: [10, 25]
   k: '&'
+  l: [BASE, NUMSYM]
 - p: [22, 36]
   k: _
+  l: [BASE, NUMSYM]
 - p: [23, 37]
   k: {t: '-', s: _}
+  l: [BASE, NUMSYM]
 - p: [24, 38]
   k: {t: /, s: '?'}
+  l: [BASE, NUMSYM]
 - p: [25, 39]
   k: '|'
+  l: [BASE, NUMSYM]
