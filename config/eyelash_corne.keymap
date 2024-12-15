@@ -221,7 +221,7 @@
 
         exclaim {
             bindings = <&kp EXCL>;
-            key-positions = <1 14>;
+            key-positions = <16 17>;
             require-prior-idle-ms = <150>;
             layers = <0 1>;
         };
@@ -367,10 +367,10 @@
 
         nav_layer {
             bindings = <
-&trans  &trans  &trans  &kp PG_UP  &kp HOME  &trans                            &mmv MOVE_UP                     &trans    &kp LG(GRAVE)  &kp LG(LS(GRAVE))  &kp LG(TAB)  &kp LG(LS(TAB))  &kp BACKSPACE
-&trans  &trans  &trans  &kp PG_DN  &kp END   &trans            &mmv MOVE_LEFT  &click          &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN       &kp UP             &kp RIGHT    &trans           &kp ENTER
-&trans  &trans  &trans  &trans     &trans    &trans  &trans                    &mmv MOVE_DOWN                   &trans    &trans         &trans             &trans       &trans           &trans
-                        &trans     &trans    &trans                                                             &trans    &trans         &trans
+&trans  &trans  &trans  &kp PG_UP  &kp HOME  &trans                            &mmv MOVE_UP                     &trans    &kp LG(TAB)  &kp LG(LS(TAB))  &kp LG(GRAVE)  &kp LG(LS(GRAVE))  &kp BACKSPACE
+&trans  &trans  &trans  &kp PG_DN  &kp END   &trans            &mmv MOVE_LEFT  &click          &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN     &kp UP           &kp RIGHT      &trans             &kp ENTER
+&trans  &trans  &trans  &trans     &trans    &trans  &trans                    &mmv MOVE_DOWN                   &trans    &trans       &trans           &trans         &trans             &trans
+                        &trans     &trans    &trans                                                             &trans    &trans       &trans
             >;
 
             label = "NAV";
