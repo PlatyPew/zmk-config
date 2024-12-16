@@ -215,7 +215,7 @@ combos:
   k: '~'
   l: [BASE, NUMSYM]
 - p: [3, 44, 4]
-  k: '~'
+  k: {t: \, s: '|'}
   l: [BASE, NUMSYM]
 - p: [15, 16]
   k: {t: '`', s: '~'}
