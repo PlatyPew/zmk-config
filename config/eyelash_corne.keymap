@@ -192,7 +192,7 @@
         };
 
         backslash {
-            bindings = <&kp TILDE>;
+            bindings = <&kp BSLH>;
             key-positions = <3 44 4>;
             require-prior-idle-ms = <150>;
             layers = <0 1>;
