@@ -86,27 +86,9 @@
         };
 
         smart_shift: smart_shift {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-mod-morph";
             label = "SMART_SHIFT";
-            #binding-cells = <0>;
             bindings = <&sk LSHIFT>, <&caps_word>;
-
-            tapping-term-ms = <500>;
-        };
-
-        lbkt_lbrc: lbkt_lbrc {
-            compatible = "zmk,behavior-mod-morph";
-            label = "LBKT_LBRC";
-            bindings = <&kp LBKT>, <&kp LBRC>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        rbkt_rbrc: rbkt_rbrc {
-            compatible = "zmk,behavior-mod-morph";
-            label = "RBKT_RBRC";
-            bindings = <&kp RBKT>, <&kp RBRC>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -238,14 +220,14 @@
         };
 
         left_brack {
-            bindings = <&lbkt_lbrc>;
+            bindings = <&kp LBKT>;
             key-positions = <37 38>;
             require-prior-idle-ms = <150>;
             layers = <0 1>;
         };
 
         right_brack {
-            bindings = <&rbkt_rbrc>;
+            bindings = <&kp RBKT>;
             key-positions = <38 39>;
             require-prior-idle-ms = <150>;
             layers = <0 1>;
