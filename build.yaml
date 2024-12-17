@@ -6,3 +6,4 @@ include:
   - board: eyelash_corne_right
     shield: nice_view
     #snippet: zmk-usb-logging
+  - board: kbdfans_tofu65_v2
