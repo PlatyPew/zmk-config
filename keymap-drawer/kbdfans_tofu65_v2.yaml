@@ -86,7 +86,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
+  - '&bl BL_TOG'
   - RGB EFF
   - RGB EFR
   - {t: '$$mdi:transfer$$', type: trans}
